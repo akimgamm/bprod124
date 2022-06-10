@@ -1,0 +1,290 @@
+.row {
+  margin: 0 !important;
+  margin-bottom: 10px;
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
+.classical-input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Montserrat";
+  position: relative;
+  top: -1px;
+  padding-left: 10px;
+}
+
+.date-input {
+  width: 113%;
+  height: 35px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: "Montserrat";
+  position: relative;
+  top: -1px;
+  padding-left: 9px;
+}
+
+.classical-select {
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-position-x: calc(100% - 8px);
+  cursor: pointer;
+  background: url(select-dropdown-ic.png) no-repeat 97% !important;
+  cursor: pointer;
+  background-size: 1px 1px;
+  appearance: none;
+  width: 12%;
+  font-size: 15px;
+  margin-right: 46px;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 4px;
+  padding: 9px;
+  font-size: 14px;
+  background: #005ab7c4;
+  padding: 7px 15px 6px;
+  position: relative;
+  top: -1px;
+}
+
+#send {
+  /* margin-left: 47px; */
+}
+
+#reload {
+  margin-left: 8px;
+}
+
+.label {
+  font-weight: initial !important;
+  margin-right: 5px;
+  color: #000;
+  font-size: 14px;
+  min-width: 195px;
+  display: inline-block !important;
+  text-align-last: left;
+}
+
+.label-n {
+  min-width: 127px;
+}
+
+.label-n2 {
+  min-width: 84px;
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.type-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.type-box {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.type-name {
+  margin-bottom: 10px;
+}
+
+.types {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  vertical-align: middle;
+  /* position: relative;
+  left: -163px; */
+  /* display: none; */
+}
+
+.types label, .faults-types-wrap label{
+  font-weight: initial;
+}
+
+.types-wrap {
+  position: relative;
+  left: -182px;
+  padding-left: 20px;
+  /* padding-top: 20px; */
+  top: -20px;
+}
+
+.choose-type {
+  min-width: 0;
+}
+
+
+/* .label:nth-child(1) {
+  margin-right: 14px;
+} */
+
+/* .label[for="faultCategotySelect"] {
+  margin-left: 51px;
+} */
+
+/* .label[for="culpritSelect"] {
+  min-width: 89px;
+}
+
+.label:nth-child(4) {
+  min-width: 90px;
+}
+
+.label:last-child{
+  font-weight: initial !important;
+  margin-right: 5px;
+  color: #000;
+  font-size: 14px;
+  min-width: 35px;
+  display: inline-block !important;
+} */
+
+#dropClasses label {
+  width: 70px;
+}
+.fault-class-wrap {
+  width: 130px;
+}
+
+.input-wrap {
+  margin-right: 10px;
+}
+
+.faults-date-label, .faults-operating-time-label {
+  display: inline-block;
+}
+
+.faults-date-label__2 {
+  /* margin-left: 32px; */
+  /* margin-left: 29px; */
+  margin-left: 67px;
+}
+
+.faults-operating-time-label__2 {
+  /* margin-left: 11px; */
+  margin-left: 45px;
+}
+
+.faults-date-input, .faults-operating-time-input {
+  display: inline-block;
+}
+
+.b:nth-child(2) {
+  margin-left: 15px;
+}
+
+.faults-graph-wrap {
+  margin-top: 18px;
+}
+
+.operating-time-wrap {
+  /* margin-left: 195px; */
+  margin-left: 248px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+
+.classical-dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.classical-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  margin-top: -47px;
+}
+
+.classical-dropdown:hover .classical-dropdown-content {
+  display: block;
+}
+
+.classical-big-nav {
+  color: #333;
+  font-size: 19px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 7px;
+
+}
+.classical-a {
+  color: #333;
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 9px;
+  font-size: 14px;
+}
+.faults-nav-wrap {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 820px;
+}
+
+.faults-wide-label label {
+  position: relative;
+  top: 10px;
+}
+
+.faults-types-wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.faults-type {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.faults-type label {
+  cursor: pointer;
+}
+
+.faults-type-title {
+  width: 100px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px 5px;
+
+}
+
+#dropClasses {
+  opacity: 0.4;
+}
+
+#dropClasses:hover {
+  opacity: 1;
+}
